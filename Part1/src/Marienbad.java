@@ -1,8 +1,7 @@
 class Marienbad {
-    void principal () {
-        //tests();
-        
-        jeu();
+    public static void main(String[] args) {
+        Marienbad m = new Marienbad();
+        m.jeu();
     }
     
     void tests () {
